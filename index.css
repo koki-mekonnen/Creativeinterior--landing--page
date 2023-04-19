@@ -1,0 +1,522 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.body {
+    height: 3000px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 50px;
+
+}
+
+.icons {
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.icons i {
+    margin-right: 20px;
+    color: rgb(59, 151, 182);
+    width:30px;
+    height:30px;
+}
+
+
+.navbar a {
+
+    padding-bottom: 1px;
+
+}
+
+navbar .btn a,
+i {
+    font-weight: bolder;
+    color: rgb(32, 108, 196);
+
+
+}
+
+.offcanvas-header {
+    color: white;
+}
+
+
+
+
+.header .offcanvas-body ul {
+    padding-top: 30px;
+    padding-left: 70px;
+    text-decoration: none;
+}
+
+.offcanvas-body ul li {
+    margin-top: 30px;
+}
+
+.offcanvas-body ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+.headre .offcanvas-body ul li:hover {
+    background-color: gold;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+
+.headre .logo {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.home {
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.dropdown h2 {
+    color: white;
+}
+
+.navbar ul li.dropdown ul {
+    background-color: white;
+    width: 400px;
+    height: 750px;
+    padding-top: 50px;
+    display: none;
+}
+
+.navbar ul li.dropdown ul li {
+    padding-top: 80px;
+    padding-left: 170px;
+}
+
+.navbar ul li.dropdown ul li a {
+    color: white;
+    font-size: 20px;
+
+}
+
+.offcanvas .offcanvas-header,
+.offcanvas-body {
+    background-color: black;
+}
+
+
+
+.navbar ul li.dropdown:hover ul {
+    display: block;
+
+}
+
+
+.name {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.name p {
+    font-size: 60px;
+}
+
+.name h1 {
+    font-size: 130px;
+}
+
+.container {
+    margin-top: 150px;
+    margin-bottom: 700px;
+    padding-left: 30px;
+}
+
+.row img {
+    width: 410px;
+    height: 400px
+}
+
+
+.carousel {
+    height: 100px;
+}
+
+.carousel-item {
+    height: 700px;
+    align-items: center;
+}
+
+.carousel-caption {
+    font-size: 80px;
+}
+
+
+
+.mycards .card {
+    width: 460px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.mycards {
+    display: flex;
+}
+
+.mycards .card1 .btn {
+    margin-top: 100px;
+
+    margin-bottom: 100px;
+}
+
+.mycards .btn {
+
+    border-radius: 30px;
+    background-color: rgb(2, 16, 34);
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    cursor: pointer;
+}
+
+.mycards .btn:hover {
+    background-color: white;
+    color: rgb(33, 110, 211);
+
+}
+
+.mycards1 .card {
+    width: 460px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.mycards1 {
+    display: flex;
+}
+
+.mycards1 .btn {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: rgb(2, 16, 34);
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    cursor: pointer;
+}
+
+.mycards1 .btn:hover {
+    background-color: white;
+    color: rgb(33, 110, 211);
+
+}
+
+/*
+.btn::before {
+    content: '';
+    background-color: wheat;
+    z-index: -1;
+    transition: 0.8s;
+
+}*/
+
+#card1 h6 {
+    color: white;
+}
+
+#card1 h1 {
+    color: black;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#card2 h1 {
+    color: white;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#card3 h6 {
+    color: black;
+}
+
+#card3 h1 {
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service .card {
+    margin-top: 100px;
+}
+
+.card-img-overlay .moreon h3 {
+    margin-top: 60px;
+
+}
+
+.aboutus {
+    background-color: rgb(172, 180, 187);
+    padding-top: 70px;
+}
+
+.who {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtitle {
+    font-weight: bolder;
+}
+
+.subtitle h1 {
+    font-size: 90px;
+}
+
+.text {
+    padding-top: 60px;
+    font-weight: 400;
+    width: 500px;
+    height: 100px;
+}
+
+.projects {
+    margin-top: 70px;
+    height: 700px;
+}
+
+.pro {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.description {
+    margin-left: 10px;
+}
+
+.description p {
+    font-weight: 500;
+    width: 500px;
+}
+
+.description h1 {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.projects ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.samples .offcanvas-header {
+    background-color: white;
+    height: 1400px;
+    width: 100%;
+}
+
+.samples .offcanvas-body {
+    background-color: white;
+
+}
+
+.service .card-img-overlay {
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+
+.service .card-text {
+    font-size: 90px;
+    padding-top: 50px;
+}
+
+.moreon {
+    margin-left: 80px;
+}
+
+.card-img-overlay .btn {
+    margin-top: 100px;
+    margin-bottom: 3px;
+
+}
+
+.service .card-img-overlay {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contactus {
+    text-decoration:underline;
+    background-image: url(./img/contactback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-left: 150px;
+    padding-top: 60px;
+}
+.contactus p{
+   color:white;
+}
+.contactus h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.contactus hr {
+    color: white;
+    width: 700px;
+    margin-left: 450px;
+    height: 10px;
+}
+
+.con p {
+    text-align: center;
+}
+
+.add1 {
+    color: white;
+
+}
+
+.add1 h4 {
+    margin-top: 50px;
+}
+
+.add1 h4 i {
+    color: white;
+
+}
+
+.section {
+    display: flex;
+
+}
+
+
+
+
+
+.social {
+    margin-top: 70px;
+    margin-left: 500px;
+    color: white;
+}
+
+.social p {
+    width: 600px;
+    padding-top:10px;
+    font-weight: bold;
+
+}
+
+.social .icons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icons i {
+    size: 30px;
+}
+
+.social h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.social .socialicons {
+    margin-left: 120px;
+
+}
+
+.social .socialicons i {
+    margin-right: 20px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.footer {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.footer h2 {
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+.foo1 {
+    width: 300px;
+    margin-left: 50px;
+
+
+}
+
+.foo1 a {
+    background-color: rgb(59, 151, 182);
+}
+
+.address2 {
+    width: 300px;
+
+}
+
+.address2 a {
+    background-color: rgb(59, 151, 182);
+}
+
+.socialadd img {
+    width: 170px;
+    height: 100px;
+}
+
+.socialadd .socialicons {
+    margin-top: 50px;
+
+    margin-left: 50px;
+
+}
+
+.socialadd .socialicons i {
+    margin-right: 20px;
+    font-size: 25px;
+    color: rgb(59, 151, 182);
+    
+}
